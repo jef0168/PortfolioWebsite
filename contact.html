@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Archivo+Narrow&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styleContact.css" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+
+    <script src="/main.js"></script>
+    <title>Contact Me</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>
+        CONTACT ME
+      </h1>
+      <div class="UNT">
+        <img src="/images/diving-eagle.png" alt="eagle" />
+      </div>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="about.html">About Me</a></li>
+          <li><a class="nav-link" href="projects.html">Projects</a></li>
+          <li><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="border"></div>
+    <main>
+      <form
+        class="contact-form"
+        action="https://formspree.io/jovanny.frias806@gmail.com"
+        method="POST"
+      >
+        <div class="Contact-Me">
+          <div class="form">
+            <div class="form-items">
+              <input type="text" name="name" class="name" placeholder="Name" />
+            </div>
+            <div class="form-items">
+              <input
+                type="email"
+                name="email"
+                class="email"
+                placeholder="Email"
+              />
+            </div>
+            <div class="form-items">
+              <textarea
+                class="message"
+                name="message"
+                cols="30"
+                rows="10"
+                placeholder="Message..."
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="status"></div>
+          <div class="btn">
+            <button type="submit" class="submit">Submit</button>
+          </div>
+        </div>
+      </form>
+
+      <section class="background">
+        <img class="big-circle" src="/images/big-eclipse.svg" />
+        <img class="mid-circle" src="/images/mid-eclipse.svg" />
+        <img class="small-circle" src="/images/small-eclipse.svg" />
+      </section>
+    </main>
+    <footer>
+      <div class="icons">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/ProIlluzionz" target="blank"
+              ><i class="fa fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/jovanny-frias/" target="blank"
+              ><i class="fa fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a href="mailto:JovannyFrias@my.unt.edu" target="blank"
+              ><i class="fa fa-google"></i
+            ></a>
+          </li>
+        </ul>
+        <p>Created by: Jovanny Frias</p>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
